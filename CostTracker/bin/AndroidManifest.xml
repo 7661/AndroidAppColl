@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tracker.ui.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <supports-screens 
+        android:resizeable="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"/> 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerLogInActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="cost.tracker.ui.activity.CoTrackerUsrHomeUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerUsrHomeUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerRecActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerRecActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerDataModUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerDataModUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerTabViewDataUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerTabViewDataUIActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerExpnUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerExpnUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerInsertExpenseUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerInsertExpenseUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerViewExpnUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerViewExpnUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerTabViewExpnUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerTabViewExpnUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerStatementActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerStatementActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerStatmentRecActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerStatmentRecActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="cost.tracker.ui.activity.CoTrackerBankRecSaveUIActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="cost.tracker.ui.activity.CoTrackerBankRecSaveUIActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

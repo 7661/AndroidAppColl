@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.costtracker_version_02.WelcomeScreenActivity" >
+
+    <Button
+        android:id="@+id/create_new_user_btn"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_debt"
+        android:layout_below="@+id/button_income"
+        android:text="@string/button_cost" />
+
+    <Button
+        android:id="@+id/button_debt"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_loan"
+        android:layout_below="@+id/create_new_user_btn"
+        android:text="@string/button_debt" />
+
+    <Button
+        android:id="@+id/button_loan"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_debt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_loan" />
+
+    <Button
+        android:id="@+id/shared_cost_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_loan"
+        android:layout_alignRight="@+id/button_loan"
+        android:layout_below="@+id/button_loan"
+        android:text="@string/shared_cost" />
+
+    <Button
+        android:id="@+id/statement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shared_cost_btn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/statement" />
+
+    <Button
+        android:id="@+id/button_income"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/create_new_user_btn"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/button_income" />
+
+</RelativeLayout>
